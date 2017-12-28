@@ -22,6 +22,7 @@ public class Pdfview extends AbstractITextPdfView {
         Paragraph header = new Paragraph(new Chunk("PDF 输出测试",
                 getChineseFont(24)));
         document.add(header);
+
         document.add(new Paragraph("测试",getChineseFont(12)));
     }
 
